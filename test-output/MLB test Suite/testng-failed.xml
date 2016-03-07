@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MLB test Suite]">
+  <test name="MLB Assesment test">
+    <classes>
+      <class name="com.mlb.Assesment.MlbProject.FlowOneLogin"/>
+      <class name="com.mlb.Assesment.MlbProject.FlowTwoPrice"/>
+    </classes>
+  </test> <!-- MLB Assesment test -->
+</suite> <!-- Failed suite [MLB test Suite] -->

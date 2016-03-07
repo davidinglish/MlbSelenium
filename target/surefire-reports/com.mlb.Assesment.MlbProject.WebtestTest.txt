@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: com.mlb.Assesment.MlbProject.WebtestTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.751 sec <<< FAILURE!
+Login(com.mlb.Assesment.MlbProject.WebtestTest)  Time elapsed: 2.935 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"gb_Za"}
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'sheridan-PC', ip: '192.168.1.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 379d161b-acf2-47b6-ac27-c7767b1f471d
+*** Element info: {Using=class name, value=gb_Za}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.mlb.Assesment.MlbProject.WebtestTest.Login(WebtestTest.java:61)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"class name","selector":"gb_Za"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'sheridan-PC', ip: '192.168.1.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/sheridan/AppData/Local/Temp/anonymous3589276399842587415webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/sheridan/AppData/Local/Temp/anonymous3589276399842587415webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10732)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/sheridan/AppData/Local/Temp/anonymous3589276399842587415webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/sheridan/AppData/Local/Temp/anonymous3589276399842587415webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12619)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/sheridan/AppData/Local/Temp/anonymous3589276399842587415webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12561)
+

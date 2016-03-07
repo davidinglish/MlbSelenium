@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.mlb.Assesment.MlbProject.WebtestTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.mlb.Assesment.MlbProject.WebtestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mlb.Assesment.MlbProject.WebtestTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.mlb.Assesment.MlbProject.WebtestTest] -->

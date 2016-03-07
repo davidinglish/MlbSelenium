@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24814" started-at="2016-03-07T01:19:22Z" finished-at="2016-03-07T01:19:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24814" started-at="2016-03-07T01:19:22Z" finished-at="2016-03-07T01:19:47Z">
+      <class name="com.mlb.Assesment.MlbProject.FlowOneLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mlb.Assesment.MlbProject.FlowOneLogin@d041cf]" name="setUp" is-config="true" duration-ms="7002" started-at="2016-03-06T17:19:22Z" finished-at="2016-03-06T17:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IncorectPassword()[pri:0, instance:com.mlb.Assesment.MlbProject.FlowOneLogin@d041cf]" name="IncorectPassword" duration-ms="7850" started-at="2016-03-06T17:19:29Z" finished-at="2016-03-06T17:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorectPassword -->
+        <test-method status="PASS" signature="IncorectUsername()[pri:0, instance:com.mlb.Assesment.MlbProject.FlowOneLogin@d041cf]" name="IncorectUsername" duration-ms="3279" started-at="2016-03-06T17:19:37Z" finished-at="2016-03-06T17:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorectUsername -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.mlb.Assesment.MlbProject.FlowOneLogin@d041cf]" name="Login" duration-ms="5618" started-at="2016-03-06T17:19:41Z" finished-at="2016-03-06T17:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mlb.Assesment.MlbProject.FlowOneLogin@d041cf]" name="tearDown" is-config="true" duration-ms="1031" started-at="2016-03-06T17:19:46Z" finished-at="2016-03-06T17:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mlb.Assesment.MlbProject.FlowOneLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
